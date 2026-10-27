@@ -67,8 +67,8 @@ export default function App() {
               </a>
             </div>
             <div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:gap-x-3">
-             <Button />
-              <Button />
+             <Button text="Login" color="#2563eb" />
+            <Button text="Sign Up" color="#16a34a" />
             </div>
           </nav>
           <div
@@ -206,8 +206,8 @@ export default function App() {
                 </p>
               </div>
               <div className="mt-10 flex items-center justify-start gap-6 sm:justify-center">
-               <Button />
-                <Button />
+               <Button text="Demo" />
+                <Button text="Learn more" color="white" />
               </div>
             </div>
           </div>
